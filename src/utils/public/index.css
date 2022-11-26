@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.container, .container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin: 2%;
+}
+
+.container-1 {
+  padding: 5%;
+  margin: 4%;
+}
+
+.container-1 > input {
+  margin: 2%;
+  border: 2px solid black;
+  margin-left: 5%;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 3%;
+  margin: 3%;
+  border: 2px solid black;
+  width: 80%;
+}
+
+.container-3 > .received, .container-3 > .sent {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  border: 2px solid black;
+  margin: 2%;
+}

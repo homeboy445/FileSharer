@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>File Sharer</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>File Sharer.io</h1>
+      <h2>Send any and all file that you wish to any other device connected to your LAN.</h2>
+      <h3>please connect to this URL for sending/receiving files: <span id="serverURL"></span></h3>
+      <div class="container-1">
+        <h3>Send a file to your peer</h3>
+        <input type="file" id="fileHandler" />
+        <button id="sendFile">send</button>
+      </div>
+      <div class="container-2"></div>
+      <div class="container-3">
+        <div class="received">
+          <h2>Received files</h2>
+        </div>
+        <div class="sent">
+          <h2>Sent files</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="./index.js"></script>
+  </footer>
+</html>
